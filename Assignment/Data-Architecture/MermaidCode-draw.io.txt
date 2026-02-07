@@ -1,0 +1,54 @@
+erDiagram
+    DimTaxpayer ||--o{ FactTaxAssessment : "FK taxpayer_sk"
+    DimFilingStatus ||--o{ FactTaxAssessment : "FK filing_status_sk"
+    DimLocation ||--o{ FactTaxAssessment : "FK location_sk"
+    DimDate ||--o{ FactTaxAssessment : "FK filing_date_sk"
+
+    DimTaxpayer {
+        int taxpayer_sk PK
+        string taxpayer_id
+        string nric
+        string full_name
+        string occupation
+        string residential_status
+        date effective_start_date
+        date effective_end_date
+        boolean is_current
+    }
+
+    DimFilingStatus {
+        int filing_status_sk PK
+        string filing_status
+    }
+
+    DimLocation {
+        int location_sk PK
+        string postal_code
+        string housing_type
+    }
+
+    DimDate {
+        int date_sk PK
+        date full_date
+        int year
+        int month
+        int day
+        int quarter
+    }
+
+    FactTaxAssessment {
+        int tax_assessment_sk PK
+        int taxpayer_sk FK
+        int filing_status_sk FK
+        int location_sk FK
+        int filing_date_sk FK
+        int assessment_year
+        decimal annual_income_sgd
+        decimal chargeable_income_sgd
+        decimal tax_payable_sgd
+        decimal tax_paid_sgd
+        decimal total_reliefs_sgd
+        int number_of_dependents
+        decimal cpf_contributions_sgd
+        decimal foreign_income_sgd
+    }
