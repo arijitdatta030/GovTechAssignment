@@ -1,0 +1,144 @@
+taxpayer_id,nric,filing_status,assessment_year,filing_date,completeness_flag,validity_flag,accuracy_flag,dq_pass,failure_reasons
+SG001,S1234567A,Single,2023,2024-03-15,True,True,True,True,
+SG002,S2345678B,Married,2023,2024-02-28,True,True,True,True,
+SG003,S3456789C,Single,2023,2024-04-10,True,True,True,True,
+SG004,S4567890D,Married,2023,2024-01-30,True,True,True,True,
+SG005,S5678901E,Single,2023,2024-03-20,True,True,True,True,
+SG006,S6789012F,Married,2023,2024-02-14,True,True,True,True,
+SG007,S7890123G,Single,2023,2024-04-05,True,True,True,True,
+SG008,S8901234H,Married,2023,2024-03-08,True,True,True,True,
+SG009,S9012345I,Single,2023,2024-02-22,True,True,True,True,
+SG010,S0123456J,Married,2023,2024-01-25,True,True,True,True,
+SG011,S1234567K,Single,2023,2024-03-12,True,True,True,True,
+SG012,S2345678L,Married,2023,2024-04-01,True,True,True,True,
+SG013,S3456789M,Single,2023,2024-02-18,True,True,True,True,
+SG014,S4567890N,Married,2023,2024-03-25,True,True,True,True,
+SG015,S5678901O,Single,2023,2024-01-20,True,True,True,True,
+SG016,S6789012P,Married,2023,2024-02-10,True,True,True,True,
+SG017,S7890123Q,Single,2023,2024-04-12,True,True,True,True,
+SG018,S8901234R,Married,2023,2024-03-05,True,True,True,True,
+SG019,S9012345S,Single,2023,2024-02-26,True,True,True,True,
+SG020,S0123456T,Married,2023,2024-01-15,True,True,True,True,
+SG021,G1234567U,Single,2023,2024-03-18,True,True,True,True,
+SG022,S2345678V,Married,2023,2024-04-08,True,True,True,True,
+SG023,S3456789W,Single,2023,2024-02-12,True,True,True,True,
+SG024,S4567890X,Married,2023,2024-03-22,True,True,True,True,
+SG025,S5678901Y,Single,2023,2024-01-28,True,True,True,True,
+SG026,S6789012Z,Married,2023,2024-02-05,True,True,True,True,
+SG027,S7890123A,Single,2023,2024-04-15,True,True,True,True,
+SG028,S8901234B,Married,2023,2024-03-01,True,True,True,True,
+SG029,S9012345C,Single,2023,2024-02-20,True,True,True,True,
+SG050,,Single,2023,2024-03-15,False,False,True,False,missing_nric
+SG051,S1111111A,Married,2023,2024-13-45,True,False,True,False,invalid_postal_code_format
+SG052,S2222222B,Single,2023,2024-02-30,True,True,True,True,
+SG053,INVALID_NRIC,Married,2023,invalid-date,True,False,True,False,invalid_postal_code_format; invalid_nric_format
+SG054,S1234568A,Single,2023,2024-03-20,True,True,True,True,
+SG055,,Married,2023,2024-04-15,False,False,True,False,missing_nric; invalid_postal_code_format
+SG056,S3456781C,Single,2023,2024-05-10,True,True,True,True,
+SG057,XXXXX1234,Married,2023,2024-15-25,True,False,True,False,invalid_nric_format
+SG058,S4567892D,Single,2023,2024-02-14,True,True,True,True,
+SG059,S5678903E,Married,2023,2024-99-99,True,True,True,True,
+SG060,S6789014F,Single,2023,2024-03-08,True,True,True,True,
+SG061,,Married,2023,2024-04-22,False,False,True,False,missing_nric; invalid_postal_code_format
+SG062,S7890125G,Single,2023,2024-01-30,True,True,False,False,chargeable_income_mismatch
+SG063,INVALID99,Married,2023,2024-02-31,True,False,True,False,invalid_nric_format
+SG064,S8901236H,Single,2023,2024-03-12,True,True,True,True,
+SG065,S9012347I,Married,2023,bad-date,True,False,True,False,invalid_postal_code_format
+SG066,S0123458J,Single,2023,2024-04-05,True,True,True,True,
+SG067,,Married,2023,2024-05-18,False,False,False,False,missing_nric; chargeable_income_mismatch
+SG068,S1234569K,Single,2023,2024-02-28,True,True,True,True,
+SG069,BADNRIC01,Married,2023,2024-13-40,True,False,True,False,invalid_nric_format
+SG070,S2345670L,Single,2023,2024-03-25,True,True,False,False,chargeable_income_mismatch
+SG071,S3456781M,Married,2023,2024-14-30,True,True,True,True,
+SG072,S4567892N,Single,2023,2024-04-08,True,True,True,True,
+SG073,,Married,2023,2024-05-12,False,False,True,False,missing_nric; invalid_postal_code_format
+SG074,S5678903O,Single,2023,2024-02-14,True,True,False,False,chargeable_income_mismatch
+SG075,INVALID_ID,Married,2023,invalid_date,True,False,True,False,invalid_nric_format
+SG076,S6789014P,Single,2023,2024-03-20,True,True,False,False,chargeable_income_mismatch
+SG077,S7890125Q,Married,2023,2024-04-25,True,True,True,True,
+SG078,S8901236R,Single,2023,2024-01-15,True,True,True,True,
+SG079,,Married,2023,2024-02-30,False,False,True,False,missing_nric; invalid_postal_code_format
+SG080,S9012347S,Single,2023,2024-03-18,True,True,False,False,chargeable_income_mismatch
+SG081,NRIC_BAD1,Married,2023,2024-99-01,True,False,False,False,invalid_nric_format; chargeable_income_mismatch
+SG082,S0123458T,Single,2023,2024-04-12,True,True,True,True,
+SG083,S1234569U,Married,2023,2024-05-08,True,True,True,True,
+SG084,S2345670V,Single,2023,2024-02-22,True,True,False,False,chargeable_income_mismatch
+SG085,,Married,2023,bad_filing_date,False,False,True,False,missing_nric; invalid_postal_code_format
+SG086,S3456781W,Single,2023,2024-03-15,True,True,False,False,chargeable_income_mismatch
+SG087,BADNRIC02,Married,2023,2024-04-28,True,False,True,False,invalid_nric_format
+SG088,S4567892X,Single,2023,2024-01-25,True,True,False,False,chargeable_income_mismatch
+SG089,S5678903Y,Married,2023,2024-16-10,True,True,True,True,
+SG090,S6789014Z,Single,2023,2024-03-05,True,True,True,True,
+SG091,,Married,2023,2024-04-18,False,False,True,False,missing_nric; invalid_postal_code_format
+SG092,S7890125A,Single,2023,2024-02-12,True,True,True,True,
+SG093,INVALID88,Married,2023,2024-13-35,True,False,True,False,invalid_nric_format
+SG094,S8901236B,Single,2023,2024-03-22,True,True,False,False,chargeable_income_mismatch
+SG095,S9012347C,Married,2023,2024-05-15,True,True,True,True,
+SG096,S0123458D,Single,2023,2024-01-08,True,True,True,True,
+SG097,,Married,2023,invalid-filing,False,False,True,False,missing_nric; invalid_postal_code_format
+SG098,S1234569E,Single,2023,2024-04-02,True,True,False,False,chargeable_income_mismatch
+SG099,NRICBAD99,Married,2023,2024-02-29,True,False,True,False,invalid_nric_format
+SG100,S2345670F,Single,2023,2024-03-28,True,True,False,False,chargeable_income_mismatch
+SG101,S3456781G,Married,2023,2024-04-20,True,True,True,True,
+SG102,S4567892H,Single,2023,2024-01-12,True,True,False,False,chargeable_income_mismatch
+SG103,,Married,2023,2024-25-05,False,False,True,False,missing_nric; invalid_postal_code_format
+SG104,S5678903I,Single,2023,2024-03-10,True,True,False,False,chargeable_income_mismatch
+SG105,BADID2024,Married,2023,bad_date_format,True,False,True,False,invalid_nric_format
+SG106,S6789014J,Single,2023,2024-04-15,True,True,False,False,chargeable_income_mismatch
+SG107,S7890125K,Married,2023,2024-02-18,True,True,False,False,chargeable_income_mismatch
+SG108,S8901236L,Single,2023,2024-03-25,True,True,True,True,
+SG109,,Married,2023,2024-14-28,False,False,True,False,missing_nric; invalid_postal_code_format
+SG110,S9012347M,Single,2023,2024-04-08,True,True,True,True,
+SG111,NRIC_INV1,Married,2023,2024-01-32,True,False,True,False,invalid_nric_format
+SG112,S0123458N,Single,2023,2024-03-12,True,True,True,True,
+SG113,S1234569O,Married,2023,2024-04-25,True,True,True,True,
+SG114,S2345670P,Single,2023,2024-02-14,True,True,True,True,
+SG115,,Married,2023,wrong_date_99,False,False,True,False,missing_nric; invalid_postal_code_format
+SG116,S3456781Q,Single,2023,2024-03-18,True,True,False,False,chargeable_income_mismatch
+SG117,INVALID77,Married,2023,2024-05-22,True,False,True,False,invalid_nric_format
+SG118,S4567892R,Single,2023,2024-01-15,True,True,False,False,chargeable_income_mismatch
+SG119,S5678903S,Married,2023,2024-04-30,True,True,False,False,chargeable_income_mismatch
+SG120,S6789014T,Single,2023,2024-02-28,True,True,True,True,
+SG121,,Married,2023,2024-18-05,False,False,True,False,missing_nric; invalid_postal_code_format
+SG122,S7890125U,Single,2023,2024-03-08,True,True,False,False,chargeable_income_mismatch
+SG123,NRICWRONG,Married,2023,invalid_filing,True,False,True,False,invalid_nric_format
+SG124,S8901236V,Single,2023,2024-04-12,True,True,False,False,chargeable_income_mismatch
+SG125,S9012347W,Married,2023,2024-02-30,True,True,True,True,
+SG126,S0123458X,Single,2023,2024-03-20,True,True,False,False,chargeable_income_mismatch
+SG127,,Married,2023,2024-13-50,False,False,True,False,missing_nric; invalid_postal_code_format
+SG128,S1234569Y,Single,2023,2024-04-18,True,True,False,False,chargeable_income_mismatch
+SG129,BADNRIC03,Married,2023,bad_date_entry,True,False,True,False,invalid_nric_format
+SG130,S2345670Z,Single,2023,2024-01-25,True,True,False,False,chargeable_income_mismatch
+SG131,S3456781A,Married,2023,2024-05-08,True,True,True,True,
+SG132,S4567892B,Single,2023,2024-02-12,True,True,True,True,
+SG133,,Married,2023,2024-15-25,False,False,True,False,missing_nric; invalid_postal_code_format
+SG134,S5678903C,Single,2023,2024-03-15,True,True,False,False,chargeable_income_mismatch
+SG135,NRIC_BAD2,Married,2023,2024-04-32,True,False,True,False,invalid_nric_format
+SG136,S6789014U,Single,2023,2024-01-08,True,True,False,False,chargeable_income_mismatch
+SG137,S7890125V,Married,2023,2024-03-28,True,True,False,False,chargeable_income_mismatch
+SG138,S8901236W,Single,2023,2024-02-14,True,True,True,True,
+SG139,,Married,2023,invalid_date_format,False,False,True,False,missing_nric; invalid_postal_code_format
+SG140,S9012347X,Single,2023,2024-04-05,True,True,False,False,chargeable_income_mismatch
+SG141,INVALID66,Married,2023,2024-05-18,True,False,True,False,invalid_nric_format
+SG142,S0123458Y,Single,2023,2024-01-20,True,True,False,False,chargeable_income_mismatch
+SG143,S1234569Z,Married,2023,2024-03-22,True,True,True,True,
+SG144,S2345670A,Single,2023,2024-02-25,True,True,True,True,
+SG145,,Married,2023,2024-99-15,False,False,True,False,missing_nric; invalid_postal_code_format
+SG146,S3456781B,Single,2023,2024-04-10,True,True,False,False,chargeable_income_mismatch
+SG147,BADID9999,Married,2023,bad_date_string,True,False,True,False,invalid_nric_format
+SG148,S4567892C,Single,2023,2024-01-12,True,True,True,True,
+SG149,S5678903D,Married,2023,2024-03-25,True,True,True,True,
+SG030,S0123456D,Married,2023,2024-01-12,True,True,True,True,
+SG031,G2345678E,Single,2023,2024-03-14,True,True,True,True,
+SG032,S3456789F,Married,2023,2024-04-03,True,True,True,True,
+SG033,S4567890G,Single,2023,2024-02-16,True,True,True,True,
+SG034,S5678901H,Married,2023,2024-03-28,True,True,True,True,
+SG035,S6789012I,Single,2023,2024-01-22,True,True,True,True,
+SG036,S7890123J,Married,2023,2024-02-08,True,True,True,True,
+SG037,S8901234K,Single,2023,2024-04-11,True,True,True,True,
+SG038,S9012345L,Married,2023,2024-03-07,True,True,True,True,
+SG039,S0123456M,Single,2023,2024-02-24,True,True,True,True,
+SG040,S1234567N,Married,2023,2024-01-18,True,True,True,True,
+SG041,G3456789O,Single,2023,2024-03-16,True,True,True,True,
+SG042,S4567890P,Married,2023,2024-04-06,True,True,True,True,
+SG043,S5678901Q,Single,2023,2024-02-13,True,True,True,True,

@@ -1,0 +1,144 @@
+taxpayer_id,nric,postal_code,housing_type,occupation,residential_status
+SG001,S1234567A,119077,HDB 4-room,Software Engineer,Resident
+SG002,S2345678B,238882,Private Condo,Senior Manager,Resident
+SG003,S3456789C,560123,HDB 3-room,Network Engineer,Resident
+SG004,S4567890D,249657,Landed Property,Director,Resident
+SG005,S5678901E,460123,HDB 2-room,Data Analyst,Resident
+SG006,S6789012F,308232,Private Condo,Doctor,Resident
+SG007,S7890123G,730123,HDB 3-room,Sales Executive,Resident
+SG008,S8901234H,119966,HDB 5-room,Accountant,Resident
+SG009,S9012345I,560789,HDB 4-room,Marketing Manager,Resident
+SG010,S0123456J,188900,Private Condo,Project Manager,Resident
+SG011,S1234567K,079903,CBD Office,Consultant,Resident
+SG012,S2345678L,469123,HDB 3-room,Operations Executive,Resident
+SG013,S3456789M,318234,Private Condo,HR Manager,Resident
+SG014,S4567890N,569234,HDB 5-room,Engineering Manager,Resident
+SG015,S5678901O,600234,HDB 2-room,Administrative Officer,Resident
+SG016,S6789012P,259951,Landed Property,Senior Director,Resident
+SG017,S7890123Q,139234,Private Condo,Business Analyst,Resident
+SG018,S8901234R,560456,HDB 3-room,Technical Support,Resident
+SG019,S9012345S,018956,CBD Office,Finance Manager,Resident
+SG020,S0123456T,469789,HDB 4-room,Software Developer,Resident
+SG021,G1234567U,238456,Private Condo,Expatriate Manager,Non-Resident
+SG022,S2345678V,730456,HDB 3-room,Customer Service,Resident
+SG023,S3456789W,119543,Private Condo,Product Manager,Resident
+SG024,S4567890X,569876,HDB 4-room,Quality Assurance,Resident
+SG025,S5678901Y,460789,HDB 2-room,Junior Developer,Resident
+SG026,S6789012Z,249123,Landed Property,Regional Director,Resident
+SG027,S7890123A,569321,HDB 3-room,Systems Administrator,Resident
+SG028,S8901234B,139876,Private Condo,UX Designer,Resident
+SG029,S9012345C,018765,CBD Office,Investment Banker,Resident
+SG050,,119077,HDB 4-room,Software Engineer,Resident
+SG051,S1111111A,INVALID,Private Condo,Manager,Resident
+SG052,S2222222B,999999,HDB 5-room,Developer,Resident
+SG053,INVALID_NRIC,ABC123,Private Condo,Analyst,Resident
+SG054,S1234568A,569123,HDB 3-room,Designer,Resident
+SG055,,BADCODE,Private Condo,Consultant,Resident
+SG056,S3456781C,188456,HDB 4-room,Engineer,Resident
+SG057,XXXXX1234,238123,Private Condo,Teacher,Resident
+SG058,S4567892D,460456,HDB 3-room,Accountant,Resident
+SG059,S5678903E,730789,HDB 5-room,Manager,Resident
+SG060,S6789014F,119789,Private Condo,Developer,Resident
+SG061,,POSTAL,HDB 4-room,Analyst,Resident
+SG062,S7890125G,569456,HDB 2-room,Writer,Resident
+SG063,INVALID99,238456,Landed Property,Director,Resident
+SG064,S8901236H,460123,HDB 4-room,Engineer,Resident
+SG065,S9012347I,INVALID_POSTAL,Private Condo,Manager,Resident
+SG066,S0123458J,730123,HDB 3-room,Designer,Resident
+SG067,,119456,Private Condo,Consultant,Resident
+SG068,S1234569K,569789,HDB 3-room,Analyst,Resident
+SG069,BADNRIC01,238789,HDB 4-room,Engineer,Resident
+SG070,S2345670L,460789,HDB 3-room,Developer,Resident
+SG071,S3456781M,999999,Private Condo,Manager,Resident
+SG072,S4567892N,730456,HDB 2-room,Writer,Resident
+SG073,,ABC789,HDB 4-room,Consultant,Resident
+SG074,S5678903O,119987,Private Condo,Engineer,Resident
+SG075,INVALID_ID,238987,Landed Property,Director,Resident
+SG076,S6789014P,460987,HDB 3-room,Analyst,Resident
+SG077,S7890125Q,569987,Private Condo,Manager,Resident
+SG078,S8901236R,730987,HDB 4-room,Developer,Resident
+SG079,,BADCODE2,HDB 5-room,Consultant,Resident
+SG080,S9012347S,119654,HDB 2-room,Designer,Resident
+SG081,NRIC_BAD1,238654,Private Condo,Director,Resident
+SG082,S0123458T,460654,HDB 4-room,Engineer,Resident
+SG083,S1234569U,569654,Private Condo,Manager,Resident
+SG084,S2345670V,730654,HDB 3-room,Analyst,Resident
+SG085,,INVALID9,HDB 4-room,Consultant,Resident
+SG086,S3456781W,119321,Private Condo,Developer,Resident
+SG087,BADNRIC02,238321,HDB 5-room,Manager,Resident
+SG088,S4567892X,460321,HDB 2-room,Writer,Resident
+SG089,S5678903Y,999998,Private Condo,Director,Resident
+SG090,S6789014Z,569321,HDB 4-room,Engineer,Resident
+SG091,,POSTAL9,Private Condo,Consultant,Resident
+SG092,S7890125A,730321,HDB 3-room,Analyst,Resident
+SG093,INVALID88,119987,HDB 4-room,Manager,Resident
+SG094,S8901236B,238987,Private Condo,Developer,Resident
+SG095,S9012347C,460987,Landed Property,Director,Resident
+SG096,S0123458D,569987,HDB 3-room,Engineer,Resident
+SG097,,BADZIP1,Private Condo,Consultant,Resident
+SG098,S1234569E,730987,HDB 2-room,Designer,Resident
+SG099,NRICBAD99,119123,HDB 5-room,Manager,Resident
+SG100,S2345670F,238123,HDB 4-room,Analyst,Resident
+SG101,S3456781G,460123,Private Condo,Director,Resident
+SG102,S4567892H,569123,HDB 3-room,Engineer,Resident
+SG103,,INVALID3,HDB 4-room,Consultant,Resident
+SG104,S5678903I,730123,Private Condo,Developer,Resident
+SG105,BADID2024,119456,HDB 5-room,Manager,Resident
+SG106,S6789014J,238456,HDB 2-room,Writer,Resident
+SG107,S7890125K,460456,Landed Property,Director,Resident
+SG108,S8901236L,569456,HDB 4-room,Engineer,Resident
+SG109,,POSTBAD,Private Condo,Consultant,Resident
+SG110,S9012347M,730456,HDB 3-room,Analyst,Resident
+SG111,NRIC_INV1,119789,HDB 5-room,Manager,Resident
+SG112,S0123458N,238789,Private Condo,Developer,Resident
+SG113,S1234569O,460789,HDB 4-room,Director,Resident
+SG114,S2345670P,569789,HDB 3-room,Engineer,Resident
+SG115,,ZIPBAD1,Private Condo,Consultant,Resident
+SG116,S3456781Q,730789,HDB 4-room,Analyst,Resident
+SG117,INVALID77,119456,Private Condo,Manager,Resident
+SG118,S4567892R,238456,HDB 2-room,Designer,Resident
+SG119,S5678903S,460456,Landed Property,Director,Resident
+SG120,S6789014T,569456,HDB 4-room,Engineer,Resident
+SG121,,BAD_POST,Private Condo,Consultant,Resident
+SG122,S7890125U,730456,HDB 3-room,Developer,Resident
+SG123,NRICWRONG,119789,HDB 5-room,Manager,Resident
+SG124,S8901236V,238789,HDB 2-room,Writer,Resident
+SG125,S9012347W,460789,Private Condo,Director,Resident
+SG126,S0123458X,569789,HDB 4-room,Engineer,Resident
+SG127,,INVALID5,Private Condo,Consultant,Resident
+SG128,S1234569Y,730789,HDB 3-room,Analyst,Resident
+SG129,BADNRIC03,119321,HDB 5-room,Manager,Resident
+SG130,S2345670Z,238321,Private Condo,Developer,Resident
+SG131,S3456781A,460321,Landed Property,Director,Resident
+SG132,S4567892B,569321,HDB 3-room,Engineer,Resident
+SG133,,POSTCODE,HDB 4-room,Consultant,Resident
+SG134,S5678903C,730321,Private Condo,Analyst,Resident
+SG135,NRIC_BAD2,119654,HDB 5-room,Manager,Resident
+SG136,S6789014U,238654,HDB 2-room,Designer,Resident
+SG137,S7890125V,460654,Private Condo,Director,Resident
+SG138,S8901236W,569654,HDB 4-room,Engineer,Resident
+SG139,,BADZIP2,Private Condo,Consultant,Resident
+SG140,S9012347X,730654,HDB 2-room,Writer,Resident
+SG141,INVALID66,119987,HDB 5-room,Manager,Resident
+SG142,S0123458Y,238987,Private Condo,Developer,Resident
+SG143,S1234569Z,460987,Landed Property,Director,Resident
+SG144,S2345670A,569987,HDB 4-room,Engineer,Resident
+SG145,,INVALID7,Private Condo,Consultant,Resident
+SG146,S3456781B,730987,HDB 3-room,Analyst,Resident
+SG147,BADID9999,119456,HDB 5-room,Manager,Resident
+SG148,S4567892C,238456,HDB 2-room,Designer,Resident
+SG149,S5678903D,460456,Private Condo,Director,Resident
+SG030,S0123456D,238765,Private Condo,Legal Counsel,Resident
+SG031,G2345678E,239876,Private Condo,Expatriate Director,Non-Resident
+SG032,S3456789F,600876,HDB 3-room,Graphic Designer,Resident
+SG033,S4567890G,119765,Private Condo,DevOps Engineer,Resident
+SG034,S5678901H,308765,Private Condo,Research Scientist,Resident
+SG035,S6789012I,460432,HDB 2-room,Content Writer,Resident
+SG036,S7890123J,259765,Landed Property,Managing Director,Resident
+SG037,S8901234K,569987,HDB 3-room,Database Administrator,Resident
+SG038,S9012345L,188765,Private Condo,Operations Manager,Resident
+SG039,S0123456M,079765,CBD Office,Technical Lead,Resident
+SG040,S1234567N,238987,Private Condo,Business Development,Resident
+SG041,G3456789O,249987,Private Condo,Expatriate VP,Non-Resident
+SG042,S4567890P,730987,HDB 3-room,Social Media Manager,Resident
+SG043,S5678901Q,139987,Private Condo,Cybersecurity Analyst,Resident
