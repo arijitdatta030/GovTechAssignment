@@ -1,0 +1,7 @@
+field,null_count,null_pct,non_null_count,non_null_pct
+nric,17,11.89,126,88.11
+taxpayer_id,0,0.0,143,100.0
+postal_code,0,0.0,143,100.0
+annual_income_sgd,0,0.0,143,100.0
+total_reliefs_sgd,0,0.0,143,100.0
+chargeable_income_sgd,0,0.0,143,100.0

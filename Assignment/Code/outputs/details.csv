@@ -1,0 +1,144 @@
+nric,taxpayer_id,postal_code,annual_income_sgd,total_reliefs_sgd,chargeable_income_sgd,completeness_flag,validity_flag,accuracy_flag,dq_pass,failure_reasons,reason_missing_nric,reason_missing_taxpayer_id,reason_missing_postal_code,reason_invalid_postal_code_format,reason_invalid_nric_format,reason_accuracy_null_operands,reason_chargeable_income_mismatch
+S1234567A,SG001,119077,85000,12950,72050,True,True,True,True,,False,False,False,False,False,False,False
+S2345678B,SG002,238882,95000,15900,79100,True,True,True,True,,False,False,False,False,False,False,False
+S3456789C,SG003,560123,62000,7950,54050,True,True,True,True,,False,False,False,False,False,False,False
+S4567890D,SG004,249657,118000,19800,98200,True,True,True,True,,False,False,False,False,False,False,False
+S5678901E,SG005,460123,48000,3950,44050,True,True,True,True,,False,False,False,False,False,False,False
+S6789012F,SG006,308232,135000,22700,112300,True,True,True,True,,False,False,False,False,False,False,False
+S7890123G,SG007,730123,38000,2950,35050,True,True,True,True,,False,False,False,False,False,False,False
+S8901234H,SG008,119966,71000,10450,60550,True,True,True,True,,False,False,False,False,False,False,False
+S9012345I,SG009,560789,89000,13900,75100,True,True,True,True,,False,False,False,False,False,False,False
+S0123456J,SG010,188900,76000,12800,63200,True,True,True,True,,False,False,False,False,False,False,False
+S1234567K,SG011,079903,102000,15300,86700,True,True,True,True,,False,False,False,False,False,False,False
+S2345678L,SG012,469123,54000,5450,48550,True,True,True,True,,False,False,False,False,False,False,False
+S3456789M,SG013,318234,63000,7950,55050,True,True,True,True,,False,False,False,False,False,False,False
+S4567890N,SG014,569234,96000,15400,80600,True,True,True,True,,False,False,False,False,False,False,False
+S5678901O,SG015,600234,39000,2950,36050,True,True,True,True,,False,False,False,False,False,False,False
+S6789012P,SG016,259951,127000,19050,107950,True,True,True,True,,False,False,False,False,False,False,False
+S7890123Q,SG017,139234,81000,12950,68050,True,True,True,True,,False,False,False,False,False,False,False
+S8901234R,SG018,560456,58000,6450,51550,True,True,True,True,,False,False,False,False,False,False,False
+S9012345S,SG019,018956,92000,13900,78100,True,True,True,True,,False,False,False,False,False,False,False
+S0123456T,SG020,469789,67000,9450,57550,True,True,True,True,,False,False,False,False,False,False,False
+G1234567U,SG021,238456,158000,19800,138200,True,True,True,True,,False,False,False,False,False,False,False
+S2345678V,SG022,730456,45000,3950,41050,True,True,True,True,,False,False,False,False,False,False,False
+S3456789W,SG023,119543,79000,12950,66050,True,True,True,True,,False,False,False,False,False,False,False
+S4567890X,SG024,569876,84000,13400,70600,True,True,True,True,,False,False,False,False,False,False,False
+S5678901Y,SG025,460789,41000,2950,38050,True,True,True,True,,False,False,False,False,False,False,False
+S6789012Z,SG026,249123,121000,18450,102550,True,True,True,True,,False,False,False,False,False,False,False
+S7890123A,SG027,569321,59000,6950,52050,True,True,True,True,,False,False,False,False,False,False,False
+S8901234B,SG028,139876,66000,9450,56550,True,True,True,True,,False,False,False,False,False,False,False
+S9012345C,SG029,018765,105000,15900,89100,True,True,True,True,,False,False,False,False,False,False,False
+,SG050,119077,75000,10000,65000,False,False,True,False,missing_nric,True,False,False,False,False,False,False
+S1111111A,SG051,INVALID,82000,12000,70000,True,False,True,False,invalid_postal_code_format,False,False,False,True,False,False,False
+S2222222B,SG052,999999,95000,15000,80000,True,True,True,True,,False,False,False,False,False,False,False
+INVALID_NRIC,SG053,ABC123,67000,9000,58000,True,False,True,False,invalid_postal_code_format; invalid_nric_format,False,False,False,True,True,False,False
+S1234568A,SG054,569123,55000,7000,48000,True,True,True,True,,False,False,False,False,False,False,False
+,SG055,BADCODE,89000,13000,76000,False,False,True,False,missing_nric; invalid_postal_code_format,True,False,False,True,False,False,False
+S3456781C,SG056,188456,72000,10000,62000,True,True,True,True,,False,False,False,False,False,False,False
+XXXXX1234,SG057,238123,64000,9000,55000,True,False,True,False,invalid_nric_format,False,False,False,False,True,False,False
+S4567892D,SG058,460456,58000,8000,50000,True,True,True,True,,False,False,False,False,False,False,False
+S5678903E,SG059,730789,91000,13000,78000,True,True,True,True,,False,False,False,False,False,False,False
+S6789014F,SG060,119789,63000,9000,54000,True,True,True,True,,False,False,False,False,False,False,False
+,SG061,POSTAL,78000,11000,67000,False,False,True,False,missing_nric; invalid_postal_code_format,True,False,False,True,False,False,False
+S7890125G,SG062,569456,49000,6000,42000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+INVALID99,SG063,238456,85000,12000,73000,True,False,True,False,invalid_nric_format,False,False,False,False,True,False,False
+S8901236H,SG064,460123,71000,10000,61000,True,True,True,True,,False,False,False,False,False,False,False
+S9012347I,SG065,INVALID_POSTAL,66000,9000,57000,True,False,True,False,invalid_postal_code_format,False,False,False,True,False,False,False
+S0123458J,SG066,730123,52000,7000,45000,True,True,True,True,,False,False,False,False,False,False,False
+,SG067,119456,94000,14000,81000,False,False,False,False,missing_nric; chargeable_income_mismatch,True,False,False,False,False,False,True
+S1234569K,SG068,569789,59000,8000,51000,True,True,True,True,,False,False,False,False,False,False,False
+BADNRIC01,SG069,238789,73000,10000,63000,True,False,True,False,invalid_nric_format,False,False,False,False,True,False,False
+S2345670L,SG070,460789,61000,8000,52000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+S3456781M,SG071,999999,87000,12000,75000,True,True,True,True,,False,False,False,False,False,False,False
+S4567892N,SG072,730456,54000,7000,47000,True,True,True,True,,False,False,False,False,False,False,False
+,SG073,ABC789,76000,11000,65000,False,False,True,False,missing_nric; invalid_postal_code_format,True,False,False,True,False,False,False
+S5678903O,SG074,119987,68000,9000,58000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+INVALID_ID,SG075,238987,82000,12000,70000,True,False,True,False,invalid_nric_format,False,False,False,False,True,False,False
+S6789014P,SG076,460987,57000,7000,49000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+S7890125Q,SG077,569987,89000,13000,76000,True,True,True,True,,False,False,False,False,False,False,False
+S8901236R,SG078,730987,65000,9000,56000,True,True,True,True,,False,False,False,False,False,False,False
+,SG079,BADCODE2,74000,10000,64000,False,False,True,False,missing_nric; invalid_postal_code_format,True,False,False,True,False,False,False
+S9012347S,SG080,119654,51000,6000,44000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+NRIC_BAD1,SG081,238654,92000,14000,79000,True,False,False,False,invalid_nric_format; chargeable_income_mismatch,False,False,False,False,True,False,True
+S0123458T,SG082,460654,69000,10000,59000,True,True,True,True,,False,False,False,False,False,False,False
+S1234569U,SG083,569654,77000,11000,66000,True,True,True,True,,False,False,False,False,False,False,False
+S2345670V,SG084,730654,56000,7000,48000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+,SG085,INVALID9,84000,12000,72000,False,False,True,False,missing_nric; invalid_postal_code_format,True,False,False,True,False,False,False
+S3456781W,SG086,119321,62000,8000,53000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+BADNRIC02,SG087,238321,78000,11000,67000,True,False,True,False,invalid_nric_format,False,False,False,False,True,False,False
+S4567892X,SG088,460321,48000,6000,41000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+S5678903Y,SG089,999998,86000,12000,74000,True,True,True,True,,False,False,False,False,False,False,False
+S6789014Z,SG090,569321,64000,9000,55000,True,True,True,True,,False,False,False,False,False,False,False
+,SG091,POSTAL9,81000,12000,69000,False,False,True,False,missing_nric; invalid_postal_code_format,True,False,False,True,False,False,False
+S7890125A,SG092,730321,53000,7000,46000,True,True,True,True,,False,False,False,False,False,False,False
+INVALID88,SG093,119987,75000,11000,64000,True,False,True,False,invalid_nric_format,False,False,False,False,True,False,False
+S8901236B,SG094,238987,67000,9000,57000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+S9012347C,SG095,460987,90000,13000,77000,True,True,True,True,,False,False,False,False,False,False,False
+S0123458D,SG096,569987,58000,8000,50000,True,True,True,True,,False,False,False,False,False,False,False
+,SG097,BADZIP1,83000,12000,71000,False,False,True,False,missing_nric; invalid_postal_code_format,True,False,False,True,False,False,False
+S1234569E,SG098,730987,50000,6000,43000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+NRICBAD99,SG099,119123,79000,11000,68000,True,False,True,False,invalid_nric_format,False,False,False,False,True,False,False
+S2345670F,SG100,238123,66000,9000,56000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+S3456781G,SG101,460123,88000,13000,75000,True,True,True,True,,False,False,False,False,False,False,False
+S4567892H,SG102,569123,55000,7000,47000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+,SG103,INVALID3,72000,10000,62000,False,False,True,False,missing_nric; invalid_postal_code_format,True,False,False,True,False,False,False
+S5678903I,SG104,730123,61000,8000,52000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+BADID2024,SG105,119456,85000,12000,73000,True,False,True,False,invalid_nric_format,False,False,False,False,True,False,False
+S6789014J,SG106,238456,49000,6000,42000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+S7890125K,SG107,460456,91000,14000,78000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+S8901236L,SG108,569456,63000,9000,54000,True,True,True,True,,False,False,False,False,False,False,False
+,SG109,POSTBAD,76000,11000,65000,False,False,True,False,missing_nric; invalid_postal_code_format,True,False,False,True,False,False,False
+S9012347M,SG110,730456,52000,7000,45000,True,True,True,True,,False,False,False,False,False,False,False
+NRIC_INV1,SG111,119789,87000,13000,74000,True,False,True,False,invalid_nric_format,False,False,False,False,True,False,False
+S0123458N,SG112,238789,59000,8000,51000,True,True,True,True,,False,False,False,False,False,False,False
+S1234569O,SG113,460789,82000,12000,70000,True,True,True,True,,False,False,False,False,False,False,False
+S2345670P,SG114,569789,54000,7000,47000,True,True,True,True,,False,False,False,False,False,False,False
+,SG115,ZIPBAD1,74000,10000,64000,False,False,True,False,missing_nric; invalid_postal_code_format,True,False,False,True,False,False,False
+S3456781Q,SG116,730789,67000,9000,57000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+INVALID77,SG117,119456,89000,13000,76000,True,False,True,False,invalid_nric_format,False,False,False,False,True,False,False
+S4567892R,SG118,238456,51000,6000,44000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+S5678903S,SG119,460456,93000,14000,80000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+S6789014T,SG120,569456,65000,9000,56000,True,True,True,True,,False,False,False,False,False,False,False
+,SG121,BAD_POST,78000,11000,67000,False,False,True,False,missing_nric; invalid_postal_code_format,True,False,False,True,False,False,False
+S7890125U,SG122,730456,56000,7000,48000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+NRICWRONG,SG123,119789,84000,12000,72000,True,False,True,False,invalid_nric_format,False,False,False,False,True,False,False
+S8901236V,SG124,238789,48000,6000,41000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+S9012347W,SG125,460789,86000,12000,74000,True,True,True,True,,False,False,False,False,False,False,False
+S0123458X,SG126,569789,62000,8000,53000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+,SG127,INVALID5,71000,10000,61000,False,False,True,False,missing_nric; invalid_postal_code_format,True,False,False,True,False,False,False
+S1234569Y,SG128,730789,57000,7000,49000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+BADNRIC03,SG129,119321,88000,13000,75000,True,False,True,False,invalid_nric_format,False,False,False,False,True,False,False
+S2345670Z,SG130,238321,60000,8000,51000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+S3456781A,SG131,460321,95000,14000,81000,True,True,True,True,,False,False,False,False,False,False,False
+S4567892B,SG132,569321,53000,7000,46000,True,True,True,True,,False,False,False,False,False,False,False
+,SG133,POSTCODE,75000,11000,64000,False,False,True,False,missing_nric; invalid_postal_code_format,True,False,False,True,False,False,False
+S5678903C,SG134,730321,68000,9000,58000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+NRIC_BAD2,SG135,119654,81000,12000,69000,True,False,True,False,invalid_nric_format,False,False,False,False,True,False,False
+S6789014U,SG136,238654,55000,7000,47000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+S7890125V,SG137,460654,92000,14000,79000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+S8901236W,SG138,569654,64000,9000,55000,True,True,True,True,,False,False,False,False,False,False,False
+,SG139,BADZIP2,77000,11000,66000,False,False,True,False,missing_nric; invalid_postal_code_format,True,False,False,True,False,False,False
+S9012347X,SG140,730654,49000,6000,42000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+INVALID66,SG141,119987,85000,12000,73000,True,False,True,False,invalid_nric_format,False,False,False,False,True,False,False
+S0123458Y,SG142,238987,61000,8000,52000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+S1234569Z,SG143,460987,89000,13000,76000,True,True,True,True,,False,False,False,False,False,False,False
+S2345670A,SG144,569987,58000,8000,50000,True,True,True,True,,False,False,False,False,False,False,False
+,SG145,INVALID7,73000,10000,63000,False,False,True,False,missing_nric; invalid_postal_code_format,True,False,False,True,False,False,False
+S3456781B,SG146,730987,66000,9000,56000,True,True,False,False,chargeable_income_mismatch,False,False,False,False,False,False,True
+BADID9999,SG147,119456,82000,12000,70000,True,False,True,False,invalid_nric_format,False,False,False,False,True,False,False
+S4567892C,SG148,238456,52000,7000,45000,True,True,True,True,,False,False,False,False,False,False,False
+S5678903D,SG149,460456,94000,14000,80000,True,True,True,True,,False,False,False,False,False,False,False
+S0123456D,SG030,238765,78000,12950,65050,True,True,True,True,,False,False,False,False,False,False,False
+G2345678E,SG031,239876,178000,19800,158200,True,True,True,True,,False,False,False,False,False,False,False
+S3456789F,SG032,600876,47000,3950,43050,True,True,True,True,,False,False,False,False,False,False,False
+S4567890G,SG033,119765,72000,12950,59050,True,True,True,True,,False,False,False,False,False,False,False
+S5678901H,SG034,308765,87000,13900,73100,True,True,True,True,,False,False,False,False,False,False,False
+S6789012I,SG035,460432,43000,2950,40050,True,True,True,True,,False,False,False,False,False,False,False
+S7890123J,SG036,259765,113000,16450,96550,True,True,True,True,,False,False,False,False,False,False,False
+S8901234K,SG037,569987,62000,7950,54050,True,True,True,True,,False,False,False,False,False,False,False
+S9012345L,SG038,188765,70000,10450,59550,True,True,True,True,,False,False,False,False,False,False,False
+S0123456M,SG039,079765,91000,13900,77100,True,True,True,True,,False,False,False,False,False,False,False
+S1234567N,SG040,238987,69000,10450,58550,True,True,True,True,,False,False,False,False,False,False,False
+G3456789O,SG041,249987,195000,19800,175200,True,True,True,True,,False,False,False,False,False,False,False
+S4567890P,SG042,730987,46000,3950,42050,True,True,True,True,,False,False,False,False,False,False,False
+S5678901Q,SG043,139987,68000,10950,57050,True,True,True,True,,False,False,False,False,False,False,False

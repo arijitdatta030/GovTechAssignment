@@ -1,0 +1,5 @@
+metric,rule,total_records,pass_count,fail_count,pass_pct,fail_pct,missing_nric_count,missing_taxpayer_id_count,invalid_nric_count,invalid_postal_code_count,mismatched_values_count,null_operands_count
+completeness,nric & taxpayer_id not null,143,126,17,88.11,11.89,17.0,0.0,,,,
+validity,NRIC & postal_code match formats,143,107,36,74.83,25.17,,,34.0,18.0,,
+accuracy,chargeable_income_sgd == annual_income_sgd - total_reliefs_sgd,143,112,31,78.32,21.68,,,,,31.0,0.0
+overall_score (avg of 3),,143,,,80.42,19.58,,,,,,
