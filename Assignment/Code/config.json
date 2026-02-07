@@ -1,0 +1,36 @@
+{
+  "input": {
+    "file_path": "C:/Users/UR524TU/OneDrive - EY/Documents/GovTechAssignment/Assignment/Assignment/data/individual_tax_returns.csv",
+    "read_csv_kwargs": {
+      "encoding": "utf-8",
+      "dtype": null
+    }
+  },
+  "engine": {
+    "required_cols": [
+      "nric", "taxpayer_id", "postal_code",
+      "annual_income_sgd", "total_reliefs_sgd", "chargeable_income_sgd"
+    ],
+    "numeric_cols": [
+      "annual_income_sgd", "total_reliefs_sgd", "chargeable_income_sgd",
+      "tax_payable_sgd", "tax_paid_sgd", "cpf_contributions_sgd", "foreign_income_sgd"
+    ],
+    "id_cols": ["record_id", "nric", "taxpayer_id"],
+    "nric_regex": "^[STFG]\\d{7}[A-Z]$",
+    "postal_regex": "^\\d{6}$",
+    "accuracy_tolerance": 0.0
+  },
+  "output": {
+    "excel_path": "./outputs/dq_report.xlsx",
+    "summary_csv": "./outputs/summary.csv",
+    "details_csv": "./outputs/details.csv",
+    "field_completeness_csv": "./outputs/field_completeness.csv",
+
+    "views": {
+      "taxpayer_info_csv": "./outputs/views/taxpayer_info.csv",
+      "income_tax_csv": "./outputs/views/income_tax.csv",
+      "filing_compliance_csv": "./outputs/views/filing_compliance.csv",
+      "geo_occupation_csv": "./outputs/views/geo_occupation.csv"
+    }
+  }
+}
